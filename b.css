@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    body{
+        font-family: Arial, sans-serif;
+    }
+    header{display: flex;
+    justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color: rgb(244, 206, 214);}
+nav a{margin:0 30px;
+color:black;text-decoration: none;
+font-weight: bold;}
+nav :hover{background-color: aliceblue;}
+.middle h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    background-color: rgb(244, 206, 214);
+    font-family:Arial, sans-serif;
+    font-style: italic;
+    font-weight: 90;
+}
+.middle img{
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+;
+}
+
+.middle{background:linear-gradient(#fc9b9b,#efd9d9);
+padding:50px 20px;
+text-align: center;
+position: relative;}
+.offer{background:rgb(237, 168, 179);
+
+}
+.middle2 img{width: 50%;
+    margin-bottom: 20px;
+    height: 80%;
+
+}
+.middle2{
+    background:linear-gradient(#efd9d9,#fc9b9b);
+    padding:50px 20px;
+text-align: center;
+position: relative;
+
+}
+.middle2 h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    background-color: rgb(244, 206, 214);
+    font-family:Arial, sans-serif;
+    font-style: italic;
+    font-weight: 90;
+    border: solid ;
+}
+.CAKE{ background:linear-gradient(#efd9d9,#fc9b9b);
+    padding:50px 20px;
+text-align: center;
+position: relative;
+}
+.PRICE{padding: 20px;
+    background-color: #bbb3b3;
+}
+.PRICE H1{background-color: rgb(219, 219, 52);
+text-align: center;}
+.PRICE p{background-color: rgb(219, 219, 52);
+text-align: center
+; font-weight: bold;}
+.PRICE table{
+    text-align: center;
+    height: 200px;
+    background-color: #d4e7d8;
+    border-collapse: collapse;
+    border: solid 1px; 
+}
+table th {
+    border: 1px solid;
+}
+table td {
+    border: 1px solid;
+}

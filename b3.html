@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{padding: 0%;
+        margin: 0%;}
+        form{
+            text-align: center;
+            background-color: rgb(212, 170, 177);
+        }
+        h1{text-align: center;}
+        .head{
+            background-color: rgb(193, 23, 32)
+            ;margin: 0%;
+        }
+        .full{background-color: black;}
+        
+    </style>
+</head>
+<body>
+    <div class="full">
+    <div class="head">
+    <h1>Feedback Form</h1>
+    </div>
+    <form action="#" method="POST">
+        
+        <label for="satisfaction">1. Overall Satisfaction (1 = Very Dissatisfied, 5 = Very Satisfied)</label><br>
+        <input type="radio" name="satisfaction" value="1"> 1
+        <input type="radio" name="satisfaction" value="2"> 2
+        <input type="radio" name="satisfaction" value="3"> 3
+        <input type="radio" name="satisfaction" value="4"> 4
+        <input type="radio" name="satisfaction" value="5"> 5
+        <br><br>
+
+        <label for="quality">2. Quality of Service/Product</label><br>
+        <input type="radio" name="quality" value="Excellent"> Excellent
+        <input type="radio" name="quality" value="Good"> Good
+        <input type="radio" name="quality" value="Average"> Average
+        <input type="radio" name="quality" value="Poor"> Poor
+        <input type="radio" name="quality" value="Very Poor"> Very Poor
+        <br><br>
+
+        <label for="support">3. Customer Support</label><br>
+        <input type="radio" name="support" value="Excellent"> Excellent
+        <input type="radio" name="support" value="Good"> Good
+        <input type="radio" name="support" value="Average"> Average
+        <input type="radio" name="support" value="Poor"> Poor
+        <input type="radio" name="support" value="Very Poor"> Very Poor
+        <br><br>
+
+        <label for="ease">4. Ease of Use/Navigation</label><br>
+        <input type="radio" name="ease" value="Very Easy"> Very Easy
+        <input type="radio" name="ease" value="Easy"> Easy
+        <input type="radio" name="ease" value="Neutral"> Neutral
+        <input type="radio" name="ease" value="Difficult"> Difficult
+        <input type="radio" name="ease" value="Very Difficult"> Very Difficult
+        <br><br>
+
+        <label for="improvement">5. Suggestions for Improvement</label><br>
+        <textarea name="improvement" rows="4" cols="50" placeholder="What can we do better?"></textarea>
+        <br><br>
+
+        <label for="comments">6. Additional Comments</label><br>
+        <textarea name="comments" rows="4" cols="50" placeholder="Do you have any other comments or suggestions?"></textarea>
+        <br><br>
+
+        <label for="recommend">7. Likelihood to Recommend</label><br>
+        <input type="radio" name="recommend" value="Very Likely"> Very Likely
+        <input type="radio" name="recommend" value="Likely"> Likely
+        <input type="radio" name="recommend" value="Neutral"> Neutral
+        <input type="radio" name="recommend" value="Unlikely"> Unlikely
+        <input type="radio" name="recommend" value="Very Unlikely"> Very Unlikely
+        <br><br>
+
+        <label for="contact">8. Contact Information (Optional)</label><br>
+        <input type="text" name="name" placeholder="Your Name (Optional)">
+        <br><br>
+        <input type="email" name="email" placeholder="Your Email (Optional)">
+        <br><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+    </div>
+</body>
+</html>
